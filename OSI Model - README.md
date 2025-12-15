@@ -5,4 +5,3 @@ The OSI model is a conceptual framework that explains how data moves from one de
 ## Layers of OSI Model:
 
 <img src="https://cdn.services-k8s.prod.aws.htb.systems/content/modules/289/network_concepts/OSI.png">
-
