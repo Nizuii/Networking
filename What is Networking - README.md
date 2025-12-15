@@ -22,8 +22,8 @@ Networks varies in size and scopes. Primarily there are 2 types of networks:
 - **Local Area Networks** (LAN) connects devices over a short distance, Such as within Home, Small office, Schools etc...
 - Key charactersitics of LAN:
 
-  1. **Geographical Scope**: Covers a small area.
-  1. **Ownership**: Typically owned or managed by a single person or organization.
-  1. **Speed**: High data transfer rates.
-  1. **Media**: Uses wired (ethernet cables) or wireless (WiFi) connections.
+  - **Geographical Scope**: Covers a small area.
+  - **Ownership**: Typically owned or managed by a single person or organization.
+  - **Speed**: High data transfer rates.
+  - **Media**: Uses wired (ethernet cables) or wireless (WiFi) connections.
 
