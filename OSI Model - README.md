@@ -5,3 +5,11 @@ The OSI model is a conceptual framework that explains how data moves from one de
 ## Layers of OSI Model:
 
 <img src="https://cdn.services-k8s.prod.aws.htb.systems/content/modules/289/network_concepts/OSI.png">
+
+### Layer 7 - Application Layer.
+
+- This is the lowest layer of the OSI Model.
+- It is responsible for the actual physical connection between the devices.
+- The physical layer contains information in form of bits.
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20241015103017414021/physical-layer.png">
