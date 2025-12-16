@@ -6,7 +6,7 @@ The OSI model is a conceptual framework that explains how data moves from one de
 
 <img src="https://cdn.services-k8s.prod.aws.htb.systems/content/modules/289/network_concepts/OSI.png">
 
-### Layer 7 - Application Layer.
+### Layer 1 - Physical Layer.
 
 - This is the lowest layer of the OSI Model.
 - It is responsible for the actual physical connection between the devices.
@@ -16,3 +16,4 @@ The OSI model is a conceptual framework that explains how data moves from one de
 
 - Its role is to to transfer individual bits from one node to next.
 - When recieving data this layer will get the signal recieved and convert it into 0's and 1's and send them to data link layer, which will put the frame back together.
+
