@@ -13,3 +13,6 @@ The OSI model is a conceptual framework that explains how data moves from one de
 - The physical layer contains information in form of bits.
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241015103017414021/physical-layer.png">
+
+- Its role is to to transfer individual bits from one node to next.
+- When recieving data this layer will get the signal recieved and convert it into 0's and 1's and send them to data link layer, which will put the frame back together.
