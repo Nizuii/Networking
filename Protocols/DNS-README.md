@@ -7,3 +7,10 @@
 ## DNS Hierarchy
 
 - DNS is organized like a tree, starting from the root and branching out into different layers.
+
+<table>
+  <tr>
+    <td>**Root Servers**</td>
+    
+  </tr>
+</table>
