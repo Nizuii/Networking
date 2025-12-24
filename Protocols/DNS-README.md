@@ -11,6 +11,9 @@
 <table>
   <tr>
     <td><b>Root Servers</b></td>
-    
+    <td>The top of the DNS hierarchy.</td>
+  </tr>
+  <tr>
+    <td><b></td>
   </tr>
 </table>
