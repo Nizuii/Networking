@@ -10,7 +10,7 @@
 
 <table>
   <tr>
-    <td>**Root Servers**</td>
+    <td><b>Root Servers</b></td>
     
   </tr>
 </table>
