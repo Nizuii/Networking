@@ -51,3 +51,4 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
 
+This will block all the incomming connections except the explicitly allowed connections and allow all the outgoing connections such as browsing, updates, DNS queiries etc...
