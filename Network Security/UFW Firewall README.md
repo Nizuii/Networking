@@ -170,3 +170,15 @@ Ports are how services listen for connections.
     <td>DNS</td>
   </tr>
 </table>
+
+**Allow by port number**
+
+```bash
+sudo ufw allow 22
+```
+
+**Allow port range**
+
+```bash
+sudo ufw allow 6000:6007/tcp
+```
