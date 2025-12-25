@@ -144,4 +144,29 @@ sudo ufw allow from 192.168.1.7 to any port 22 proto tcp
    - Sends a rejection message.
    - Useful for internal networks.
   
-### Ports: The “Doors” of Your System
+### 6️⃣ Ports: The “Doors” of Your System
+
+Ports are how services listen for connections.
+
+<table>
+  <tr>
+    <td><b>Ports</b></td>
+    <td><b>Service</b></td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>SSH</td>
+  </tr>
+  <tr>
+    <td>80</td>
+    <td>HTTP</td>
+  </tr>
+  <tr>
+    <td>443</td>
+    <td>HTTPS</td>
+  </tr>
+  <tr>
+    <td>53</td>
+    <td>DNS</td>
+  </tr>
+</table>
