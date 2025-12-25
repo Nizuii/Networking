@@ -82,3 +82,36 @@ Every firewall rule has a direction:
 - Your systerm downloading updates -> Outgoing
 
 UFW blocks incoming by default, allows outgoing.
+
+### 4️⃣ Anatomy of a UFW Rule
+
+```bash
+sudo ufw allow from 192.168.1.7 to any port 22 proto tcp
+```
+
+<table>
+  <tr>
+    <td><b>Part</b></td>
+    <td><b>Meaning</b></td>
+  </tr>
+  <tr>
+    <td>Allow</td>
+    <td>Action (allow/deny/reject)</td>
+  </tr>
+  <tr>
+    <td>from</td>
+    <td>Source IP address</td>
+  </tr>
+  <tr>
+    <td>to</td>
+    <td>Destination</td>
+  </tr>
+  <tr>
+    <td>port 22</td>
+    <td>Target port</td>
+  </tr>
+  <tr>
+    <td>proto tcp</td>
+    <td>protocol</td>
+  </tr>
+</table>
