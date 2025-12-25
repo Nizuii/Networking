@@ -43,3 +43,11 @@ UFW Configurations is describes as 4 steps:
 4. Deciding who, what and how traffic is allowed or denied.
 
 ### 2️⃣ Default Policies (Foundation of UFW)
+
+#### 🔐 Default Incoming Policy
+
+```bash
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+```
+
