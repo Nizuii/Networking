@@ -115,3 +115,33 @@ sudo ufw allow from 192.168.1.7 to any port 22 proto tcp
     <td>protocol</td>
   </tr>
 </table>
+
+### 5️⃣ Actions: allow vs deny vs reject
+
+1. **✅ allow**
+
+   ```bash
+   sudo ufw allow 22
+   ```
+
+   - Lets traffic pass silently.
+  
+1. **❌ deny**
+
+   ```bash
+   sudo ufw deny 22
+   ```
+
+   - Drops traffic.
+   - Attacker sees no response.
+  
+1. **🚫 reject**
+
+   ```bash
+   sudo ufw reject 22
+   ```
+
+   - Sends a rejection message.
+   - Useful for internal networks.
+  
+### Ports: The “Doors” of Your System
