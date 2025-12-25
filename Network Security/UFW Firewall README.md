@@ -30,3 +30,16 @@ If not installed type:
 ```bash
 sudo apt install ufw
 ```
+
+## UFW Configuration.
+
+### 1️⃣ What does "UFW Configuration" actually mean.
+
+UFW Configurations is describes as 4 steps:
+
+1. Defining default behaviour.
+2. Creating rules.
+3. choosing directions.
+4. Deciding who, what and how traffic is allowed or denied.
+
+### 2️⃣ Default Policies (Foundation of UFW)
