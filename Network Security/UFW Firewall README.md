@@ -52,3 +52,33 @@ sudo ufw default allow outgoing
 ```
 
 This will block all the incomming connections except the explicitly allowed connections and allow all the outgoing connections such as browsing, updates, DNS queiries etc...
+
+### 3️⃣ Understanding Traffic Direction
+
+Every firewall rule has a direction:
+
+<table>
+  <tr>
+    <td><b>Direction</b></td>
+    <td><b>Meaning</b></td>
+  </tr>
+  <tr>
+    <td>Incoming</td>
+    <td>Traffic coming into your system.</td>
+  </tr>
+  <tr>
+    <td>Outgoing</td>
+    <td>Traffic going out</td>
+  </tr>
+  <tr>
+    <td>Routed</td>
+    <td>Traffic passing through your system.</td>
+  </tr>
+</table>
+
+#### Example:
+
+- Someone SSHing into my system -> Incomming
+- Your systerm downloading updates -> Outgoing
+
+UFW blocks incoming by default, allows outgoing.
