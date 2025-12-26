@@ -21,4 +21,14 @@ Example:
 snort -v
 ```
 
-### 2️⃣ IDS Mode
+### 2️⃣ IDS Mode (Detection mode)
+
+- Monitors Traffic.
+- Matches packets against rules.
+- Generates alerts when rules match.
+
+Example:
+
+```bash
+snort -c /etc/snort/snort.conf -i wlan0
+```
