@@ -21,7 +21,7 @@ Example:
 snort -v
 ```
 
-### 2️⃣ IDS Mode (Detection mode)
+### 2️⃣ IDS Mode (Detection Mode)
 
 - Monitors Traffic.
 - Matches packets against rules.
@@ -31,4 +31,37 @@ Example:
 
 ```bash
 snort -c /etc/snort/snort.conf -i wlan0
+```
+### 3️⃣ IPS Mode (Prevention Mode)
+
+- Works inline
+- Can drop/block malicious packets.
+- Actively stops attacks.
+
+This is dangerous if misconfigured - but powerful.
+
+## How Snort Works
+
+Here's the internal flow:
+
+1. **Packet Capture**
+
+   - Snort listens to a network interface.
+  
+1. **Preprocessors**
+
+   - Normalize traffic (TCP reassembly, HTTP decoding)
+  
+1. **Rule Engine**
+
+   - Compares packet against rules
+  
+1. **Action**
+
+   - Alert, logs, drop or pass.
+  
+Simple pipeline:
+
+```bash
+Traffic ➡️ Preprocessors ➡️ Rules ➡️ Alert / Block
 ```
