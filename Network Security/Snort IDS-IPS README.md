@@ -65,3 +65,19 @@ Simple pipeline:
 ```bash
 Traffic ➡️ Preprocessors ➡️ Rules ➡️ Alert / Block
 ```
+
+## Understanding snort.conf:
+
+```bash
+ipvar HOME_NET any
+```
+
+change it to your local network:
+
+Example:
+
+```bash
+ipvar HOME_NET 192.168.1.0/24
+```
+**🧠 Meaning:**
+> This is mu Network. Protect This.
