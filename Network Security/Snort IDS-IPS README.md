@@ -68,6 +68,8 @@ Traffic ➡️ Preprocessors ➡️ Rules ➡️ Alert / Block
 
 ## Understanding snort.conf:
 
+### 1️⃣ Define your network (HOME_NET)
+
 ```bash
 ipvar HOME_NET any
 ```
@@ -80,4 +82,16 @@ Example:
 ipvar HOME_NET 192.168.1.0/24
 ```
 **🧠 Meaning:**
-> This is mu Network. Protect This.
+> This is my Network. Protect This.
+
+### 2️⃣ External network (EXTERNAL_NET)
+
+Usually:
+
+```bash
+ipvar EXTERNAL_NET !$HOME_NET
+```
+**🧠 Meaning:**
+> Everything that is not my network.
+
+
