@@ -26,7 +26,12 @@ Example (Simplified):
 
 Network Logs Helps us:
 
-- 🔍 Detect Hacking Attempts.
+- 🔍 **Detect Hacking Attempts.**:
+
+  - Reveals Repeated Failed Logins: Brute Force Attacks.
+  - Port Scanning Behavior
 - 🚨 Investigate Incidents.
+
+  - 
 - 📊 Monitor Performance
 - 🛡️ Prove compliance
