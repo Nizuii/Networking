@@ -22,3 +22,11 @@ Example (Simplified):
 ```bash
 2025-01-12 14:22:10 | SRC: 192.168.1.5 | DST: 8.8.8.8 | PORT: 443 | ALLOWED
 ```
+## Why network logs are important?
+
+Network Logs Helps us:
+
+- 🔍 Detect Hacking Attempts.
+- 🚨 Investigate Incidents.
+- 📊 Monitor Performance
+- 🛡️ Prove compliance
