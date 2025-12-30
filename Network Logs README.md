@@ -54,9 +54,9 @@ Network Logs Helps us:
 
 - 🛡️ Prove compliance
 
-Logs provide:
+  Logs provide:
 
-- Audit trails (Who accessed what, when, why)
-- Proof of access control enforcement.
-- Evidence of monitoring and response.
-- Forensic Integrity
+  - Audit trails (Who accessed what, when, why)
+  - Proof of access control enforcement.
+  - Evidence of monitoring and response.
+  - Forensic Integrity
