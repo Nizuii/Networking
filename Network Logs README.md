@@ -29,9 +29,34 @@ Network Logs Helps us:
 - 🔍 **Detect Hacking Attempts.**:
 
   - Reveals Repeated Failed Logins: Brute Force Attacks.
-  - Port Scanning Behavior
-- 🚨 Investigate Incidents.
+  - Port Scanning Behavior: Attacker mapping your system.
+  - Suspicious IP locations: access from unexpected countries.
+  - Traffic spikes: DDOS or Bot activity.
+  - Strange Payloads: SQL injection, XSS attempts.
 
-  - 
-- 📊 Monitor Performance
+- **🚨 Investigate Incidents.**:
+
+  - 🕒 Timeline: When the attack started and ended.
+  - 👤 Entry point: Compromised account, open port, vulnerability.
+  - 🔓 Actions taken: Files accessed, commands run.
+  - 📤 Data movement: Was data exfiltrated.
+
+- **📊 Monitor Performance.**:
+
+  Not all problems are attacks. Some are performance bottlenecks - logs expose them.
+  Logs shows:
+  
+  - Slow response times.
+  - Packet drops
+  - Bandwidth saturation.
+  - Repeated retries or failures
+  - Service crashes.
+
 - 🛡️ Prove compliance
+
+Logs provide:
+
+- Audit trails (Who accessed what, when, why)
+- Proof of access control enforcement.
+- Evidence of monitoring and response.
+- Forensic Integrity
